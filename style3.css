@@ -1,0 +1,285 @@
+/* General */
+
+html {
+       overflow-y: scroll;
+}
+
+
+body {
+  background-color: #fff; 
+  	font-family: 'Crimson Text', serif;
+	color: #444;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  text-align: justify;
+  }
+
+#shade {
+  width: 850px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  }
+
+#content {
+  width: 800px; 
+  margin-top: -18px;
+  margin-bottom: 0px;
+  margin-right: 25px;
+  margin-left: 25px;	
+  background: white;
+  border: 1px solid black;
+  min-height: 100px; 
+  }
+
+* html #content {
+  height: 100px;
+}
+
+/* #tabs is the menu div. */ 
+
+#tabs {
+  float: left;
+  width: 100%;
+  border-top: 1px solid #bebebe;
+  background: #cccccc; 
+  font-size: 100%;
+  line-height: normal;
+  font-family: 'Open Sans';
+}
+ 
+#tabs ul {
+  margin: 0px;
+  padding: 10px 0px 10px 50px;
+  list-style: none;
+  font-family: 200 16px/20px "Open Sans";
+}
+
+#tabs li {
+  display: inline;
+  margin-right: 35px;
+  padding-left: 0px;
+  font-size: 22px;
+  font-family: 'Open Sans';
+}
+
+#tabs a {
+  color: black;
+  text-decoration: none; 
+  padding-left: 0px;}
+  }
+
+#tabs a span {
+  float: left;
+  display: black; 
+  background: #cccccc;  
+  padding-left: 0px;
+  color: black;
+  
+  }
+
+#tabs a active {
+  color: black;
+  padding-left: 0px;
+  text-decoration: none; }
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span {float:none;}
+#tabs a active {float:none;}
+/* End IE5-Mac hack */
+
+#tabs a:hover span {
+  color: white;
+}
+
+#tabs ul a:hover {
+  border-bottom: none;
+}
+ 
+#tabs a:hover {
+  background-position: 0% -42px;
+  border-bottom: none;
+ }
+
+
+#tabs a:hover span {
+  background-position: 100% -42px;
+}
+
+#title {
+  top: 0px;
+  left: 0px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+  background-color: white;
+  width: 700px;
+} 
+
+#pub {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 15px 0px 10px 0px;
+	/*	border-top: 1px solid #323336;
+	border-bottom: 1px solid #323336; */
+	background: white;  
+	width: 700px;
+	min-height: 222px;
+}
+
+#pub2 {
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 0px 0px 10px 0px;
+	/*	border-top: 1px solid #323336;
+	border-bottom: 1px solid #323336; */
+	background: white;  
+	width: 700px;
+}
+
+/* Text Definitions */
+
+/* for all pages. */
+p {
+ font-family: 'Crimson Text', serif;
+  font-size: 18px;
+  line-height: 180%;
+  color: black;
+  text-align: justify;
+}
+
+h1 {
+  font-family: "lato";
+  color: #505050;
+  font-size: 3em;
+  font-weight: lighter;
+  padding: 0px 0px 0px 50px;
+  margin-top: 0px
+  margin-bottom: 0px;
+}
+  
+h2 {
+  font-family: "Open Sans";
+  color: #2a2a2a;
+  font-size: 1.2em;
+  font-weight: lighter;
+  margin-top: -15px;
+  padding: 0px 0px 0px 50px;
+}
+
+h3 {
+  font-family: 'Crimson Text', serif;
+  color: black; 
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+h4 {
+  font-family: 'Crimson Text', serif;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+h5 {
+  font-family: "Crimson Text", serif;
+  color: #505050;
+  font-style: italic;
+  font-size: 1.25em;
+  font-weight: lighter;
+  margin-top: -25px;
+  padding: 0px 0px 0px 50px;
+}
+
+
+ul {
+  font-family: 200 16px/20px "Open Sans";
+  margin-right: 0px;
+  color: black;	
+  padding: 3px;
+}
+
+li { 
+  font-family: 'Crimson Text', serif;
+  font-size: 16px;
+  line-height: 180%;
+  color: black;
+  text-align: justify;
+} 
+
+/* Links */
+/* Links */
+
+a1 {
+  color: inherit;
+  text-decoration: none; }
+
+a:link {
+	color:#261780; 
+	text-decoration:none; }
+	
+a:visited {
+	color:#13104d; 
+	text-decoration:none; }
+	
+a:hover {
+	color:#261780; border-bottom: 1px; 
+	text-decoration:underline;}
+
+/*	
+a {
+  color: inherit;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+*/
+/* Tables */
+
+#contents table {
+	font-family: 62.5% "Open Sans", Arial, Helvetica, sans-serif;
+   margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 0px 0px 10px 0px;
+	/*	border-top: 1px solid #323336;
+	border-bottom: 1px solid #323336; */
+	background: white;  
+	width: 700px;
+}
+
+
+#contents table th {
+	font-family: 62.5% "Open Sans", Arial, Helvetica, sans-serif;
+   padding:5px;
+   font-size:12px;
+   text-align:left;
+   border:1px solid #ddd;
+   background:#cfcfcf;
+}
+
+#contents table td {
+	font-family: 62.5% "Open Sans", Arial, Helvetica, sans-serif;
+   padding:5px;
+   font-size:12px;
+   text-align:left;
+   border:1px solid #ddd;
+}
+
+
+/* ========PAGETOP CUSTOMIZE========= */
+#pageTop {
+	font-family: 62.5% "Open Sans", Arial, Helvetica, sans-serif;
+   padding:10px 0;
+   text-align:center;
+}
+
