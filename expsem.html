@@ -1,0 +1,299 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Topics in Semantics: Experiments in Semantics</title>
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Athulya Aravind (aravind@mit.edu)" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<style>*{font-family: sans-serif}</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Topics in Semantics: Experimental Semantics and its Interfaces<br> Harvard LING 207R/MIT 24.979 </h1>
+
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Course information</h2>
+<div class="outline-text-2" id="text-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="left">Meeting Times</td>
+<td class="left">Thursdays, 9:45-11:45AM</td>
+</tr>
+
+<tr>
+<td class="left">Meeting Locations</td>
+<td class="left">Harvard: Sever 112; MIT: 32-D461</td>
+</tr>
+
+
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Instructor information</h2>
+<div class="outline-text-2" id="text-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="left"><a href="https://athulyaaravind.github.io/about.html">Athulya Aravind</a> (<a href="mailto:aravind@mit.edu">aravind@mit.edu</a>)</td>
+<td class="left"><a href="https://kathryndavidson.scholars.harvard.edu/">Kate Davidson</a> (<a href="mailto:kathryndavidson@fas.harvard.edu">kathryndavidson@fas.harvard.edu</a>)</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+</div>
+
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Course Description</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Experimental methodologies have increasingly been employed within the field of linguistics to collect data in service of theory building, especially understanding points of variation across languages, understanding the process of language acquisition, and understanding how linguistic representations interact with other aspects of cognition. In this course we’ll survey the field of experimental semantics and its interfaces with syntax and with pragmatics with an eye toward giving students coming in with foundational graduate-level background in theoretical linguistics a framework for reading current experimental literature in syntax, semantics, and pragmatics, and for developing their own experimental designs. We plan to explore experimental and developmental case studies from well-established areas of formal semantics, including quantification, modality, and anaphora, with the possibility of incorporating additional topics based on student interests.
+<br><br>
+
+Intended audience for this course are graduate students or advanced undergraduates in Linguistics. We assume a background in graduate-level formal semantics. While no prior experience with experimental methods or statistics is required, participants should be open to engaging with the technical aspects of the material.
+
+
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Course organization</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+We'll meet once a week, alternating between Harvard and MIT. Seminar participants will take turns leading open discussions of recent papers, including both technical details and how the work fits into the larger current research landscape.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> Readings</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+To be determined in part based on the interests of seminar participants. 
+</p>
+
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="right" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="right">Date</th>
+<th scope="col" class="left">Location</th>
+<th scope="col" class="left">Topic</th>
+<th scope="col" class="left">Readings</th>
+<th scope="col" class="left">Presenters</th>
+<th scope="col" class="left">Related readings</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="right">1/30</td>
+<td class="left">Harvard</td>
+<td class="left">Soft open</td>
+<td class="left">None</td>
+<td class="left">Kate</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="right">2/4</td>
+<td class="left">MIT</td>
+<td class="left">Doing experiments</td>
+<td class="left"><a href="https://journals.sagepub.com/doi/pdf/10.1177/0956797613485092?casa_token=0ML5p5IQzXAAAAAA:Z4nZzbb_PwfszTGrIDwoAQ_hwzr6vPtKJkzNKsEq9Gb3i9U5h1s8sIMUT3fkmiNiaaam2kJbjs7T">Firestone & Scholl (2014)</a></td>
+<td class="left">Athulya</td>
+<td class="left"></td>
+</tr>
+
+
+</tbody>
+</table>
+</div>
+</div>
+
+
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> Requirements &amp; grading</h2>
+<div class="outline-text-2" id="text-8">
+<p>
+You need to do the readings in advance, show up to class, lead discussions when it is your turn, and do a final project for the class.  There will be ample opportunities to collaborate with fellow seminar participants and to get guidance and advice from the instructor.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-7" class="outline-2">
+<h2 id="sec-7"><span class="section-number-2">7</span> Mailing list</h2>
+<div class="outline-text-2" id="text-9">
+<p>
+There is a mailing list for this seminar: <a href="http://mailman.mit.edu/mailman/listinfo/expsem-spring2025">http://mailman.mit.edu/mailman/listinfo/expsem-spring2025</a>.  This mailing list will be used both for organizational purposes and for communication about seminar content.  If you plan to participate in the seminar, please subscribe!
+</p>
+</div>
+</div>
+</div>
+
+</body>
+</html>
